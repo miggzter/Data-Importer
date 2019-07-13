@@ -15,7 +15,15 @@ namespace Data_Importer.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Importer()
+        {
+            return View();
+        }
+        public IActionResult Viewer()
+        {
+            return View();
+        }
+        public IActionResult Destroyer()
         {
             return View();
         }
