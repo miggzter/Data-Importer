@@ -17,6 +17,7 @@ namespace Data_Importer.Controllers
 
         public IActionResult Importer()
         {
+            Models.Importer.main();
             return View();
         }
         public IActionResult Viewer()
